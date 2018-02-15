@@ -1,0 +1,13 @@
+:root {
+  --color-primary: #233e47;
+  --color-primary-light: #a4d7dc;
+  --color-secondary: #006964;
+  --color-accent: #fff;
+  --color-neutral-beige: #000;
+  --font-primary: "Oswald", sans-serif;
+  --font-secondary: "Droid Serif", serif;
+}
+
+html {
+  font-family: var(--font-primary);
+}
