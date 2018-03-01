@@ -11,3 +11,19 @@
 html {
   font-family: var(--font-primary);
 }
+
+h1 {
+  font-family: var(--font-secondary);
+}
+
+p {
+  font-family: var(--font-secondary);
+}
+
+ul {
+  font-family: var(--font-secondary);
+}
+
+a {
+  font-family: var(--font-secondary);
+}
