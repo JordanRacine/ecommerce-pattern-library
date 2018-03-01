@@ -348,9 +348,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/Jordan/Desktop/Second Year 2017-2018/Second Semester/Web Developpment/ecommerce-pattern-library
- * @version 1519885220456
+ * @version 1519886049146
  */
-const patternManifest_1519885220456 = {
+const patternManifest_1519886049146 = {
   "commonInfo": {
     "gridifier": [
       {
@@ -586,5 +586,5 @@ const patternManifest_1519885220456 = {
   }
 };
 
-patternBotIncludes(patternManifest_1519885220456);
+patternBotIncludes(patternManifest_1519886049146);
 }());
