@@ -348,10 +348,26 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/Jordan/Desktop/Second Year 2017-2018/Second Semester/Web Developpment/ecommerce-pattern-library
- * @version 1519911677069
+ * @version 1519916437848
  */
-const patternManifest_1519911677069 = {
+const patternManifest_1519916437848 = {
   "commonInfo": {
+    "modulifier": [
+      "responsive",
+      "images",
+      "list-group",
+      "embed",
+      "media-object",
+      "icons",
+      "hidden",
+      "positioning",
+      "nice-lists",
+      "forms",
+      "buttons",
+      "accessibility",
+      "print"
+    ],
+    "modulifierUrl": "responsive;images;list-group;embed;media-object;icons;hidden;positioning;nice-lists;forms;buttons;accessibility;print",
     "gridifier": [
       {
         "prefix": "xs",
@@ -408,43 +424,43 @@ const patternManifest_1519911677069 = {
           {
             "name": "--color-primary",
             "namePretty": "Primary",
-            "raw": "#233e47",
-            "hex": "#233e47",
-            "rgba": "rgba(35, 62, 71, 1)"
+            "raw": "#363740",
+            "hex": "#363740",
+            "rgba": "rgba(54, 55, 64, 1)"
           },
           {
             "name": "--color-primary-light",
             "namePretty": "Primary light",
-            "raw": "#a4d7dc",
-            "hex": "#a4d7dc",
-            "rgba": "rgba(164, 215, 220, 1)"
+            "raw": "#7d828c",
+            "hex": "#7d828c",
+            "rgba": "rgba(125, 130, 140, 1)"
           }
         ],
         "secondary": [
           {
             "name": "--color-secondary",
             "namePretty": "Secondary",
-            "raw": "#006964",
-            "hex": "#006964",
-            "rgba": "rgba(0, 105, 100, 1)"
+            "raw": "#5c6373",
+            "hex": "#5c6373",
+            "rgba": "rgba(92, 99, 115, 1)"
           }
         ],
         "neutral": [
           {
             "name": "--color-neutral-beige",
             "namePretty": "Neutral beige",
-            "raw": "#000",
-            "hex": "#000",
-            "rgba": "rgba(0, 0, 0, 1)"
+            "raw": "#d9cFc7",
+            "hex": "#d9cFc7",
+            "rgba": "rgba(217, 207, 199, 1)"
           }
         ],
         "accent": [
           {
             "name": "--color-accent",
             "namePretty": "Accent",
-            "raw": "#fff",
-            "hex": "#fff",
-            "rgba": "rgba(255, 255, 255, 1)"
+            "raw": "#a4a5a6",
+            "hex": "#a4a5a6",
+            "rgba": "rgba(164, 165, 166, 1)"
           }
         ]
       },
@@ -486,11 +502,11 @@ const patternManifest_1519911677069 = {
         "accent": []
       },
       "coloursRaw": {
-        "--color-primary": "#233e47",
-        "--color-primary-light": "#a4d7dc",
-        "--color-secondary": "#006964",
-        "--color-accent": "#fff",
-        "--color-neutral-beige": "#000"
+        "--color-primary": "#363740",
+        "--color-primary-light": "#7d828c",
+        "--color-secondary": "#5c6373",
+        "--color-accent": "#a4a5a6",
+        "--color-neutral-beige": "#d9cFc7"
       },
       "fontsRaw": {
         "--font-primary": "\"Oswald\", sans-serif",
@@ -586,5 +602,5 @@ const patternManifest_1519911677069 = {
   }
 };
 
-patternBotIncludes(patternManifest_1519911677069);
+patternBotIncludes(patternManifest_1519916437848);
 }());

@@ -1,9 +1,9 @@
 :root {
-  --color-primary: #233e47;
-  --color-primary-light: #a4d7dc;
-  --color-secondary: #006964;
-  --color-accent: #fff;
-  --color-neutral-beige: #000;
+  --color-primary: #363740;
+  --color-primary-light: #7d828c;
+  --color-secondary: #5c6373;
+  --color-accent: #a4a5a6;
+  --color-neutral-beige: #d9cFc7;
   --font-primary: "Oswald", sans-serif;
   --font-secondary: "Droid Serif", serif;
 }
