@@ -1,0 +1,13 @@
+nav {
+  background-color: var(--color-primary-dark)
+}
+
+a {
+  text-decoration: none;
+  transition: all .15s ease;
+  color: var(--color-primary-light);
+}
+
+a:hover, a:focus {
+  text-decoration: underline;
+}

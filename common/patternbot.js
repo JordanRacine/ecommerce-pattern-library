@@ -444,9 +444,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/Jordan/Desktop/Second Year 2017-2018/Second Semester/Web Developpment/ecommerce-pattern-library
- * @version 38a7c3a54b36427788601a92473a96f62ccd38ee
+ * @version b42ae1ff5985784fcf99fe8698a333714bbd1729
  */
-const patternManifest_38a7c3a54b36427788601a92473a96f62ccd38ee = {
+const patternManifest_b42ae1ff5985784fcf99fe8698a333714bbd1729 = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -647,7 +647,9 @@ const patternManifest_38a7c3a54b36427788601a92473a96f62ccd38ee = {
     "patterns": [
       "/Users/Jordan/Desktop/Second Year 2017-2018/Second Semester/Web Developpment/ecommerce-pattern-library/patterns/buttons",
       "/Users/Jordan/Desktop/Second Year 2017-2018/Second Semester/Web Developpment/ecommerce-pattern-library/patterns/cards",
+      "/Users/Jordan/Desktop/Second Year 2017-2018/Second Semester/Web Developpment/ecommerce-pattern-library/patterns/footer",
       "/Users/Jordan/Desktop/Second Year 2017-2018/Second Semester/Web Developpment/ecommerce-pattern-library/patterns/forms",
+      "/Users/Jordan/Desktop/Second Year 2017-2018/Second Semester/Web Developpment/ecommerce-pattern-library/patterns/header",
       "/Users/Jordan/Desktop/Second Year 2017-2018/Second Semester/Web Developpment/ecommerce-pattern-library/patterns/nav"
     ],
     "pages": [],
@@ -728,6 +730,39 @@ const patternManifest_38a7c3a54b36427788601a92473a96f62ccd38ee = {
       "js": []
     },
     {
+      "name": "footer",
+      "namePretty": "Footer",
+      "path": "/Users/Jordan/Desktop/Second Year 2017-2018/Second Semester/Web Developpment/ecommerce-pattern-library/patterns/footer",
+      "html": [
+        {
+          "name": "footer",
+          "namePretty": "Footer",
+          "filename": "footer",
+          "path": "/Users/Jordan/Desktop/Second Year 2017-2018/Second Semester/Web Developpment/ecommerce-pattern-library/patterns/footer/footer.html",
+          "localPath": "patterns/footer/footer.html"
+        }
+      ],
+      "md": [
+        {
+          "name": "readme",
+          "namePretty": "Readme",
+          "filename": "README",
+          "path": "/Users/Jordan/Desktop/Second Year 2017-2018/Second Semester/Web Developpment/ecommerce-pattern-library/patterns/footer/README.md",
+          "localPath": "patterns/footer/README.md"
+        }
+      ],
+      "css": [
+        {
+          "name": "footer",
+          "namePretty": "Footer",
+          "filename": "footer",
+          "path": "/Users/Jordan/Desktop/Second Year 2017-2018/Second Semester/Web Developpment/ecommerce-pattern-library/patterns/footer/footer.css",
+          "localPath": "patterns/footer/footer.css"
+        }
+      ],
+      "js": []
+    },
+    {
       "name": "forms",
       "namePretty": "Forms",
       "path": "/Users/Jordan/Desktop/Second Year 2017-2018/Second Semester/Web Developpment/ecommerce-pattern-library/patterns/forms",
@@ -777,6 +812,39 @@ const patternManifest_38a7c3a54b36427788601a92473a96f62ccd38ee = {
           "filename": "forms",
           "path": "/Users/Jordan/Desktop/Second Year 2017-2018/Second Semester/Web Developpment/ecommerce-pattern-library/patterns/forms/forms.css",
           "localPath": "patterns/forms/forms.css"
+        }
+      ],
+      "js": []
+    },
+    {
+      "name": "header",
+      "namePretty": "Header",
+      "path": "/Users/Jordan/Desktop/Second Year 2017-2018/Second Semester/Web Developpment/ecommerce-pattern-library/patterns/header",
+      "html": [
+        {
+          "name": "header",
+          "namePretty": "Header",
+          "filename": "header",
+          "path": "/Users/Jordan/Desktop/Second Year 2017-2018/Second Semester/Web Developpment/ecommerce-pattern-library/patterns/header/header.html",
+          "localPath": "patterns/header/header.html"
+        }
+      ],
+      "md": [
+        {
+          "name": "readme",
+          "namePretty": "Readme",
+          "filename": "README",
+          "path": "/Users/Jordan/Desktop/Second Year 2017-2018/Second Semester/Web Developpment/ecommerce-pattern-library/patterns/header/README.md",
+          "localPath": "patterns/header/README.md"
+        }
+      ],
+      "css": [
+        {
+          "name": "header",
+          "namePretty": "Header",
+          "filename": "header",
+          "path": "/Users/Jordan/Desktop/Second Year 2017-2018/Second Semester/Web Developpment/ecommerce-pattern-library/patterns/header/header.css",
+          "localPath": "patterns/header/header.css"
         }
       ],
       "js": []
@@ -835,5 +903,5 @@ const patternManifest_38a7c3a54b36427788601a92473a96f62ccd38ee = {
   }
 };
 
-patternBotIncludes(patternManifest_38a7c3a54b36427788601a92473a96f62ccd38ee);
+patternBotIncludes(patternManifest_b42ae1ff5985784fcf99fe8698a333714bbd1729);
 }());
