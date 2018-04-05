@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>Forms</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="../../common/modules.css" rel="stylesheet">
+  <link href="../../common/grid.css" rel="stylesheet">
+  <link href="../../common/type.css" rel="stylesheet">
+  <link href="../../common/theme.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,700" rel="stylesheet">
+  <link href="forms.css" rel="stylesheet">
+</head>
+<body>
+
+  <form>
+    <div class="unit xs-1 s-1 m-1-2 pad-b gutter-1-2">
+      <label for="name">Name</label>
+      <input id="name" required>
+    </div>
+
+    <div class="grid">
+      <div class="unit xs-1 s-1 m-1-2 pad-b gutter-1-2">
+        <label for="email" class="kilo">Email Address<span class="opt italic"> (required)</span></label>
+        <input id="email" type="email" required aria-describedby="email-error">
+      </div>
+    </div>
+  </form>
+
+</body>
+</html>

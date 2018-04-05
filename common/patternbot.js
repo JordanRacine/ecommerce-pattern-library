@@ -444,9 +444,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/Jordan/Desktop/Second Year 2017-2018/Second Semester/Web Developpment/ecommerce-pattern-library
- * @version 04ae8ad4c0874bc2f701ed83fd348eadfb74c08f
+ * @version 12a92962be3d46e4a6649dc4b17e0c12bc82f15f
  */
-const patternManifest_04ae8ad4c0874bc2f701ed83fd348eadfb74c08f = {
+const patternManifest_12a92962be3d46e4a6649dc4b17e0c12bc82f15f = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -730,9 +730,54 @@ const patternManifest_04ae8ad4c0874bc2f701ed83fd348eadfb74c08f = {
       "name": "forms",
       "namePretty": "Forms",
       "path": "/Users/Jordan/Desktop/Second Year 2017-2018/Second Semester/Web Developpment/ecommerce-pattern-library/patterns/forms",
-      "html": [],
-      "md": [],
-      "css": [],
+      "html": [
+        {
+          "name": "dropdown",
+          "namePretty": "Dropdown",
+          "filename": "dropdown",
+          "path": "/Users/Jordan/Desktop/Second Year 2017-2018/Second Semester/Web Developpment/ecommerce-pattern-library/patterns/forms/dropdown.html",
+          "localPath": "patterns/forms/dropdown.html"
+        },
+        {
+          "name": "fieldset",
+          "namePretty": "Fieldset",
+          "filename": "fieldset",
+          "path": "/Users/Jordan/Desktop/Second Year 2017-2018/Second Semester/Web Developpment/ecommerce-pattern-library/patterns/forms/fieldset.html",
+          "localPath": "patterns/forms/fieldset.html"
+        },
+        {
+          "name": "optional",
+          "namePretty": "Optional",
+          "filename": "optional",
+          "path": "/Users/Jordan/Desktop/Second Year 2017-2018/Second Semester/Web Developpment/ecommerce-pattern-library/patterns/forms/optional.html",
+          "localPath": "patterns/forms/optional.html"
+        },
+        {
+          "name": "required",
+          "namePretty": "Required",
+          "filename": "required",
+          "path": "/Users/Jordan/Desktop/Second Year 2017-2018/Second Semester/Web Developpment/ecommerce-pattern-library/patterns/forms/required.html",
+          "localPath": "patterns/forms/required.html"
+        }
+      ],
+      "md": [
+        {
+          "name": "readme",
+          "namePretty": "Readme",
+          "filename": "README",
+          "path": "/Users/Jordan/Desktop/Second Year 2017-2018/Second Semester/Web Developpment/ecommerce-pattern-library/patterns/forms/README.md",
+          "localPath": "patterns/forms/README.md"
+        }
+      ],
+      "css": [
+        {
+          "name": "forms",
+          "namePretty": "Forms",
+          "filename": "forms",
+          "path": "/Users/Jordan/Desktop/Second Year 2017-2018/Second Semester/Web Developpment/ecommerce-pattern-library/patterns/forms/forms.css",
+          "localPath": "patterns/forms/forms.css"
+        }
+      ],
       "js": []
     }
   ],
@@ -756,5 +801,5 @@ const patternManifest_04ae8ad4c0874bc2f701ed83fd348eadfb74c08f = {
   }
 };
 
-patternBotIncludes(patternManifest_04ae8ad4c0874bc2f701ed83fd348eadfb74c08f);
+patternBotIncludes(patternManifest_12a92962be3d46e4a6649dc4b17e0c12bc82f15f);
 }());
