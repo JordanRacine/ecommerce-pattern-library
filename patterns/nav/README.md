@@ -1,0 +1,1 @@
+The navigation will be used throughout the entire website in order for the customers to navigate with ease. It will scale depending on the screen size and when hovered will change colour in order to know which page you are on.
