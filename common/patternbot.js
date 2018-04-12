@@ -444,9 +444,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/Jordan/Desktop/Second Year 2017-2018/Second Semester/Web Developpment/ecommerce-pattern-library
- * @version de8bae52fcc4934eb6bb25e1cbb3c2a7e0e05e48
+ * @version 699f169e583c9d7632cac092c9a09fcfe20933ca
  */
-const patternManifest_de8bae52fcc4934eb6bb25e1cbb3c2a7e0e05e48 = {
+const patternManifest_699f169e583c9d7632cac092c9a09fcfe20933ca = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -623,6 +623,14 @@ const patternManifest_de8bae52fcc4934eb6bb25e1cbb3c2a7e0e05e48 = {
       "bodyRaw": "\nProviding a new twist on drinks with friends.\n",
       "bodyBasic": "Providing a new twist on drinks with friends."
     },
+    "icons": [
+      "beer",
+      "facebook",
+      "champagne",
+      "instagram",
+      "twitter",
+      "wine"
+    ],
     "interfaceColours": {
       "primary": 0,
       "opposite": 255
@@ -636,7 +644,7 @@ const patternManifest_de8bae52fcc4934eb6bb25e1cbb3c2a7e0e05e48 = {
       "theme": "/Users/Jordan/Desktop/Second Year 2017-2018/Second Semester/Web Developpment/ecommerce-pattern-library/common/theme.css"
     },
     "imagesParsable": {
-      "icons": false
+      "icons": "/Users/Jordan/Desktop/Second Year 2017-2018/Second Semester/Web Developpment/ecommerce-pattern-library/images/icons.svg"
     },
     "logos": {
       "sizeLarge": false,
@@ -875,5 +883,5 @@ const patternManifest_de8bae52fcc4934eb6bb25e1cbb3c2a7e0e05e48 = {
   }
 };
 
-patternBotIncludes(patternManifest_de8bae52fcc4934eb6bb25e1cbb3c2a7e0e05e48);
+patternBotIncludes(patternManifest_699f169e583c9d7632cac092c9a09fcfe20933ca);
 }());
