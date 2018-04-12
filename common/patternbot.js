@@ -444,9 +444,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/Jordan/Desktop/Second Year 2017-2018/Second Semester/Web Developpment/ecommerce-pattern-library
- * @version e5f5d708cb344e69ff5e7aacd9b70fa3efb1e29b
+ * @version 70b5e2d5e1aa783f4145ee5719b7772783b15f98
  */
-const patternManifest_e5f5d708cb344e69ff5e7aacd9b70fa3efb1e29b = {
+const patternManifest_70b5e2d5e1aa783f4145ee5719b7772783b15f98 = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -651,7 +651,13 @@ const patternManifest_e5f5d708cb344e69ff5e7aacd9b70fa3efb1e29b = {
       "/Users/Jordan/Desktop/Second Year 2017-2018/Second Semester/Web Developpment/ecommerce-pattern-library/patterns/forms",
       "/Users/Jordan/Desktop/Second Year 2017-2018/Second Semester/Web Developpment/ecommerce-pattern-library/patterns/header"
     ],
-    "pages": [],
+    "pages": [
+      {
+        "name": "home.html",
+        "namePretty": "Home",
+        "path": "/Users/Jordan/Desktop/Second Year 2017-2018/Second Semester/Web Developpment/ecommerce-pattern-library/pages/home.html"
+      }
+    ],
     "js": []
   },
   "userPatterns": [
@@ -869,5 +875,5 @@ const patternManifest_e5f5d708cb344e69ff5e7aacd9b70fa3efb1e29b = {
   }
 };
 
-patternBotIncludes(patternManifest_e5f5d708cb344e69ff5e7aacd9b70fa3efb1e29b);
+patternBotIncludes(patternManifest_70b5e2d5e1aa783f4145ee5719b7772783b15f98);
 }());
