@@ -444,9 +444,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/Jordan/Desktop/Second Year 2017-2018/Second Semester/Web Developpment/ecommerce-pattern-library
- * @version 70b5e2d5e1aa783f4145ee5719b7772783b15f98
+ * @version de8bae52fcc4934eb6bb25e1cbb3c2a7e0e05e48
  */
-const patternManifest_70b5e2d5e1aa783f4145ee5719b7772783b15f98 = {
+const patternManifest_de8bae52fcc4934eb6bb25e1cbb3c2a7e0e05e48 = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -611,7 +611,7 @@ const patternManifest_70b5e2d5e1aa783f4145ee5719b7772783b15f98 = {
     },
     "readme": {
       "attributes": {
-        "name": "MaJar",
+        "name": "Glass Co.",
         "fontURL": "https://fonts.googleapis.com/css?family=Oswald:400,400i,700|Droid+Serif:400,700",
         "fontUrl": "https://fonts.googleapis.com/css?family=Oswald:400,400i,700|Droid+Serif:400,700",
         "backgroundColour": "#fff",
@@ -620,8 +620,8 @@ const patternManifest_70b5e2d5e1aa783f4145ee5719b7772783b15f98 = {
           "opposite": 255
         }
       },
-      "bodyRaw": "\nProviding you with both the tools and expertise to transform your home with a little individual flare and creativity.\n",
-      "bodyBasic": "Providing you with both the tools and expertise to transform your home with a little individual flare and creativity."
+      "bodyRaw": "\nProviding a new twist on drinks with friends.\n",
+      "bodyBasic": "Providing a new twist on drinks with friends."
     },
     "interfaceColours": {
       "primary": 0,
@@ -875,5 +875,5 @@ const patternManifest_70b5e2d5e1aa783f4145ee5719b7772783b15f98 = {
   }
 };
 
-patternBotIncludes(patternManifest_70b5e2d5e1aa783f4145ee5719b7772783b15f98);
+patternBotIncludes(patternManifest_de8bae52fcc4934eb6bb25e1cbb3c2a7e0e05e48);
 }());
