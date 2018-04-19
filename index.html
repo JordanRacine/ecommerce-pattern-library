@@ -210,6 +210,26 @@
                   </div>
                 </a>
               </li>
+              <li role="presentation">
+                <a class="gutter pad-t-1-4 pad-b-1-4 block" role="tab" aria-controls="products" href="#products">
+                  <div class="relative">
+                    <span>Products</span>
+                    <i class="icon i-18 absolute pin-cr">
+                      <svg><use xlink:href="#icon-active" /></svg>
+                    </i>
+                  </div>
+                </a>
+              </li>
+              <li role="presentation">
+                <a class="gutter pad-t-1-4 pad-b-1-4 block" role="tab" aria-controls="sections" href="#sections">
+                  <div class="relative">
+                    <span>Sections</span>
+                    <i class="icon i-18 absolute pin-cr">
+                      <svg><use xlink:href="#icon-active" /></svg>
+                    </i>
+                  </div>
+                </a>
+              </li>
           <li class="pad-t-1-2" role="presentation">
             <button class="nav-show-all gutter pad-t-1-4 pad-b-1-4 block kilo" id="patternbot-nav-show-all" aria-pressed="false" title="Show all patterns" aria-label="Show all patterns">
               <span class="nav-show-all-wrap relative block">Show all</span>
@@ -222,9 +242,29 @@
         <nav class="nav mega">
           <ul class="list-group">
               <li>
+                <a class="gutter pad-t-1-4 pad-b-1-4 block page-pop" href="pages/checkout.html" target="_blank">
+                  <div class="relative">
+                    <span>Checkout</span>
+                    <i class="icon i-18 absolute pin-cr">
+                      <svg><use xlink:href="#icon-pop-out" /></svg>
+                    </i>
+                  </div>
+                </a>
+              </li>
+              <li>
                 <a class="gutter pad-t-1-4 pad-b-1-4 block page-pop" href="pages/home.html" target="_blank">
                   <div class="relative">
                     <span>Home</span>
+                    <i class="icon i-18 absolute pin-cr">
+                      <svg><use xlink:href="#icon-pop-out" /></svg>
+                    </i>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a class="gutter pad-t-1-4 pad-b-1-4 block page-pop" href="pages/shop.html" target="_blank">
+                  <div class="relative">
+                    <span>Shop</span>
                     <i class="icon i-18 absolute pin-cr">
                       <svg><use xlink:href="#icon-pop-out" /></svg>
                     </i>
@@ -816,6 +856,10 @@
         </ul>
   </div>
 
+    <div class="pattern-desc milli island" style="">
+      <div class="max-length"><p>The banner will be used at the top of the homepage as an intro to the site explaining what it is and also attracting you to buy.</p>
+</div>
+    </div>
 
   
 
@@ -848,14 +892,17 @@
                   <svg><use xlink:href="#icon-copy"></use></svg>
                 </i>
               </button>
-              <code><pre id="banner-banner-code-sample-copy-chunk">&lt;div class="banner-home"&gt;
+              <code><pre id="banner-banner-code-sample-copy-chunk">&lt;div class="banner-home center"&gt;
   &lt;div class="embed embed-16by9 banner-home-div">
     &lt;img class="img-flex embed-item" src="../../images/banner.jpg" alt="&#x2026;">
   &lt;/div>
-  &lt;div class="banner-content pin-c">
-    &lt;h1 class="bannerh1 zetta">A New Way to accesorize&lt;/h1>
-    &lt;h2 class="bannerh2 kilo">We re-purpose these bottles by taking our time and turning them into great looking glassware for you and your friends to enjoy. &lt;/h2>
-    &lt;a class="btn btn-light mega" href="#"> See more&lt;/a>
+
+  &lt;div class="banner embed embed-24by10 push-1-2">
+    &lt;div class="banner-content pin-lc gutter">
+      &lt;h1 class="banner-title yotta text-center">A New Way to accesorize&lt;/h1>
+      &lt;p class="banner-info exa italic max-length-no-center">We re-purpose these bottles by taking our time and turning them into great looking glassware for you and your friends to enjoy.!&lt;/p>
+      &lt;a class="btn btn-light mega" href="#">See More&lt;/a>
+    &lt;/div>
   &lt;/div>
 &lt;/div>
 </pre></code>
@@ -1169,70 +1216,14 @@ The Icon card will be used for things like calls-to-action on the homepage or hi
                 </i>
               </button>
               <code><pre id="footer-footer-code-sample-copy-chunk">&lt;footer class="pad-t-2"&gt;
-  &lt;div class="max-length grid gutter">
 
-    &lt;div class="unit xs-1 push">
-      &lt;h2 class="push-1-4 footertitle">Glass Co.&lt;/h2>
-      &lt;p>A new twist on drinks with friends.&lt;/p>
-    &lt;/div>
-
-    &lt;div class="list unit xs-1-2 s-1-2 m-1-4">
-      &lt;h3 class="footertitle push-1-4 mega">Explore&lt;/h3>
-      &lt;ul class="list-group milli">
-        &lt;li>
-          &lt;a href="#">Home&lt;/a>
-        &lt;/li>
-        &lt;li>
-          &lt;a href="#">Shop&lt;/a>
-        &lt;/li>
-        &lt;li>
-          &lt;a href="#">About&lt;/a>
-        &lt;/li>
-      &lt;/ul>
-    &lt;/div>
-
-    &lt;div class="unit xs-1-2 s-1-2 m-1-4">
-      &lt;h3 class="footertitle push-1-4 mega">Connect&lt;/h3>
-      &lt;ul class="list-group milli">
-        &lt;li>
-          &lt;a href="#">Instagram&lt;/a>
-        &lt;/li>
-        &lt;li>
-          &lt;a href="#">Email&lt;/a>
-        &lt;/li>
-      &lt;/ul>
-    &lt;/div>
-
-    &lt;div class="unit xs-1-2 s-1-2 m-1-4 push">
-      &lt;h3 class="footertitle push-1-4 mega">HQ&lt;/h3>
-      &lt;address>
-        &lt;ul class="list-group milli">
-          &lt;li>1234 Walkley Road&lt;/li>
-          &lt;li>Ottawa, ON, K1V 2N3&lt;/li>
-          &lt;li>CANADA&lt;/li>
-        &lt;/ul>
-      &lt;/address>
-    &lt;/div>
-
-    &lt;div class="unit xs-1-2 s-1-2 m-1-4 push">
-      &lt;h3 class="footertitle push-1-4 mega">Legal&lt;/h3>
-      &lt;ul class="list-group milli">
-        &lt;li>
-          &lt;a href="#">Terms&lt;/a>
-        &lt;/li>
-        &lt;li>
-          &lt;a href="#">Privacy&lt;/a>
-        &lt;/li>
-      &lt;/ul>
-    &lt;/div>
-
-    &lt;div class="unit xs-1">
-      &lt;aside>
-        &lt;p class="micro">&#xA9; 2018 Glass Co. All rights reserved.&lt;/p>
-      &lt;/aside>
-    &lt;/div>
-
+  &lt;div class="unit xs-1">
+    &lt;aside>
+      &lt;p class="micro">&#xA9; 2018 Glass Co. All rights reserved.&lt;/p>
+    &lt;/aside>
   &lt;/div>
+
+
 &lt;/footer>
 </pre></code>
             </div>
@@ -1626,14 +1617,14 @@ The Icon card will be used for things like calls-to-action on the homepage or hi
   &lt;div class="grid max-length">
     &lt;div class="logo unit xs-1 l-1-4 text-center push">
       &lt;i class="icon i-32 text-center">
-           &lt;img src="../../images/logo-256.svg">
+           &lt;img src="../../images/logo-64.svg">
          &lt;/i>
     &lt;/div>
     &lt;div class="unit xs-1 s-1 m-1-3 l-1-4 text-center">
       &lt;a href="../../pages/home.html">Home&lt;/a>
     &lt;/div>
     &lt;div class="unit xs-1 s-1 m-1-3 l-1-4 text-center">
-      &lt;a href="../../pages/products.html">Products&lt;/a>
+      &lt;a href="../../pages/shop.html">Shop&lt;/a>
     &lt;/div>
     &lt;div class="unit xs-1 s-1 m-1-3 l-1-4 text-center push">
       &lt;a href="../../pages/checkout.html">Checkout&lt;/a>
@@ -1722,6 +1713,182 @@ The Icon card will be used for things like calls-to-action on the homepage or hi
     &lt;/ul>
   &lt;/nav>
 &lt;/div>
+</pre></code>
+            </div>
+          </div>
+      </div>
+    </div>
+
+</section>
+
+        <section class="pattern" id="products" role="tabpanel" hidden aria-hidden="true" style="">
+  <div class="pattern-toolbar gutter pad-t-1-4 pad-b-1-8 relative" style="">
+    <h2 class="pattern-name exa push-1-4" style="color: #363740; font-family: &quot;Droid Serif&quot;, serif;">Products</h2>
+        <ul class="list-group-inline gutter absolute pin-cr">
+            <li>
+              <button class="center-contents-vertical pattern-tool-btn pattern-code-btn" title="Show code" aria-label="Show code" aria-pressed="false" aria-controls="products-products-code-sample">
+                <i class="icon i-18">
+                  <svg><use xlink:href="#icon-code"></use></svg>
+                </i>
+              </button>
+            </li>
+            <li>
+              <button class="center-contents-vertical pattern-tool-btn pattern-include-btn" title="Copy include" aria-label="Copy include" data-copy-include-pattern="products/products" hidden>
+                <i class="icon i-18">
+                  <svg><use xlink:href="#icon-copy"></use></svg>
+                </i>
+              </button>
+            </li>
+            <li>
+              <a class="center-contents-vertical pattern-tool-btn pattern-pop-btn" href="patterns/products/products.html" target="_blank" title="Open pattern in a new tab" aria-label="Open pattern in a new tab">
+                <i class="icon i-18">
+                  <svg><use xlink:href="#icon-pop-out"></use></svg>
+                </i>
+              </a>
+            </li>
+        </ul>
+  </div>
+
+
+  
+
+    <div class="pattern-details " id="products--products" style="">
+
+      <div class="pattern-examples pad-t-1-2 pad-b-1-2" style="">
+        <div class="gutter-2 pad-t-1-2 pad-b-1-2">
+          <div class="resizeable-pattern relative" style="">
+            <i class="icon i-32 patternbot-iframe-loading-gears absolute pin-c"><svg><use xlink:href="#patternbot-iframe-loading-gears"></use></svg></i>
+            <iframe data-src="patterns/products/products.html" scrolling="no" data-inject-css=" " ></iframe>
+              <div class="resizeable-pattern-length">
+                <div class="resize-handle resize-handle-left" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-resize-handle" /></svg>
+                  </i>
+                </div>
+                <div class="resize-handle resize-handle-right" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-resize-handle" /></svg>
+                  </i>
+                </div>
+              </div>
+          </div>
+        </div>
+
+          <div class="pattern-code-wrap gutter pad-t-1-2 pad-b-1-2" hidden aria-hidden="true" id="products-products-code-sample" tabindex="-1">
+            <div class="pattern-code relative milli island-1-2" style="">
+              <button class="center-contents-vertical pattern-tool-btn pattern-copy-btn absolute pin-tr" title="Copy code" aria-label="Copy code" data-clipboard-target="#products-products-code-sample-copy-chunk" hidden>
+                <i class="icon i-18">
+                  <svg><use xlink:href="#icon-copy"></use></svg>
+                </i>
+              </button>
+              <code><pre id="products-products-code-sample-copy-chunk">&lt;div class="pad-b"&gt;
+  &lt;div class="push-0">
+    &lt;div class="embed embed-1by1">
+      &lt;img class="embed-item img-flex island" src="../../images/placeholder.png" alt="">
+    &lt;/div>
+    &lt;h1 class="text-center tera">Product Name&lt;/h1>
+    &lt;h5 class="text-center">Price&lt;/h5>
+    &lt;div class="island text-center">
+      &lt;a class="btn tera" href="#" aria-label="Buy">View&lt;/a>
+    &lt;/div>
+  &lt;/div>
+&lt;/div>
+</pre></code>
+            </div>
+          </div>
+      </div>
+    </div>
+
+</section>
+
+        <section class="pattern" id="sections" role="tabpanel" hidden aria-hidden="true" style="">
+  <div class="pattern-toolbar gutter pad-t-1-4 pad-b-1-8 relative" style="">
+    <h2 class="pattern-name exa push-1-4" style="color: #363740; font-family: &quot;Droid Serif&quot;, serif;">Sections</h2>
+        <ul class="list-group-inline gutter absolute pin-cr">
+            <li>
+              <button class="center-contents-vertical pattern-tool-btn pattern-code-btn" title="Show code" aria-label="Show code" aria-pressed="false" aria-controls="sections-social-media-code-sample">
+                <i class="icon i-18">
+                  <svg><use xlink:href="#icon-code"></use></svg>
+                </i>
+              </button>
+            </li>
+            <li>
+              <button class="center-contents-vertical pattern-tool-btn pattern-include-btn" title="Copy include" aria-label="Copy include" data-copy-include-pattern="sections/social-media" hidden>
+                <i class="icon i-18">
+                  <svg><use xlink:href="#icon-copy"></use></svg>
+                </i>
+              </button>
+            </li>
+            <li>
+              <a class="center-contents-vertical pattern-tool-btn pattern-pop-btn" href="patterns/sections/social-media.html" target="_blank" title="Open pattern in a new tab" aria-label="Open pattern in a new tab">
+                <i class="icon i-18">
+                  <svg><use xlink:href="#icon-pop-out"></use></svg>
+                </i>
+              </a>
+            </li>
+        </ul>
+  </div>
+
+
+  
+
+    <div class="pattern-details " id="sections--social-media" style="">
+
+      <div class="pattern-examples pad-t-1-2 pad-b-1-2" style="">
+        <div class="gutter-2 pad-t-1-2 pad-b-1-2">
+          <div class="resizeable-pattern relative" style="">
+            <i class="icon i-32 patternbot-iframe-loading-gears absolute pin-c"><svg><use xlink:href="#patternbot-iframe-loading-gears"></use></svg></i>
+            <iframe data-src="patterns/sections/social-media.html" scrolling="no" data-inject-css=" " ></iframe>
+              <div class="resizeable-pattern-length">
+                <div class="resize-handle resize-handle-left" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-resize-handle" /></svg>
+                  </i>
+                </div>
+                <div class="resize-handle resize-handle-right" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-resize-handle" /></svg>
+                  </i>
+                </div>
+              </div>
+          </div>
+        </div>
+
+          <div class="pattern-code-wrap gutter pad-t-1-2 pad-b-1-2" hidden aria-hidden="true" id="sections-social-media-code-sample" tabindex="-1">
+            <div class="pattern-code relative milli island-1-2" style="">
+              <button class="center-contents-vertical pattern-tool-btn pattern-copy-btn absolute pin-tr" title="Copy code" aria-label="Copy code" data-clipboard-target="#sections-social-media-code-sample-copy-chunk" hidden>
+                <i class="icon i-18">
+                  <svg><use xlink:href="#icon-copy"></use></svg>
+                </i>
+              </button>
+              <code><pre id="sections-social-media-code-sample-copy-chunk">&lt;section class="social-section"&gt;
+  &lt;h2 class="text-center pad-t">Follow us!&lt;/h2>
+  &lt;ul class="list-group-inline text-center">
+    &lt;li class="island">
+      &lt;a href="#">
+          &lt;i class="icon i-128">
+            &lt;svg>&lt;use xlink:href="../../images/icons.svg#facebook"/>&lt;/svg>
+          &lt;/i>
+        &lt;/a>
+    &lt;/li>
+
+    &lt;li class="island">
+      &lt;a href="#">
+          &lt;i class="icon i-128">
+            &lt;svg>&lt;use xlink:href="../../images/icons.svg#twitter"/>&lt;/svg>
+          &lt;/i>
+        &lt;/a>
+    &lt;/li>
+
+    &lt;li class="island">
+      &lt;a href="#">
+          &lt;i class="icon i-128">
+            &lt;svg>&lt;use xlink:href="../../images/icons.svg#instagram"/>&lt;/svg>
+          &lt;/i>
+        &lt;/a>
+    &lt;/li>
+  &lt;/ul>
+&lt;/section>
 </pre></code>
             </div>
           </div>
