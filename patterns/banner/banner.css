@@ -1,0 +1,14 @@
+.banner {
+  background-color: var(--color-primary-dark);
+}
+
+.bannerh1 {
+  color: var(--color-primary);
+  display: inline;
+}
+
+.bannerh2 {
+  color: var(--color-primary-light);
+  font-weight: 400;
+  display: inline;
+}

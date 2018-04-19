@@ -444,9 +444,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/Jordan/Desktop/Second Year 2017-2018/Second Semester/Web Developpment/ecommerce-pattern-library
- * @version 699f169e583c9d7632cac092c9a09fcfe20933ca
+ * @version 5bb702046ddc77ed27c00cee91b1539a943ada3d
  */
-const patternManifest_699f169e583c9d7632cac092c9a09fcfe20933ca = {
+const patternManifest_5bb702046ddc77ed27c00cee91b1539a943ada3d = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -647,17 +647,23 @@ const patternManifest_699f169e583c9d7632cac092c9a09fcfe20933ca = {
       "icons": "/Users/Jordan/Desktop/Second Year 2017-2018/Second Semester/Web Developpment/ecommerce-pattern-library/images/icons.svg"
     },
     "logos": {
-      "sizeLarge": false,
-      "size64": false,
-      "size32": false,
-      "size16": false
+      "sizeLarge": "/Users/Jordan/Desktop/Second Year 2017-2018/Second Semester/Web Developpment/ecommerce-pattern-library/images/logo.svg",
+      "size64": "/Users/Jordan/Desktop/Second Year 2017-2018/Second Semester/Web Developpment/ecommerce-pattern-library/images/logo-64.svg",
+      "size32": "/Users/Jordan/Desktop/Second Year 2017-2018/Second Semester/Web Developpment/ecommerce-pattern-library/images/logo-32.svg",
+      "size16": "/Users/Jordan/Desktop/Second Year 2017-2018/Second Semester/Web Developpment/ecommerce-pattern-library/images/logo-16.svg",
+      "size16Local": "logo-16.svg",
+      "size32Local": "logo-32.svg",
+      "size64Local": "logo-64.svg",
+      "sizeLargeLocal": "logo.svg"
     },
     "patterns": [
+      "/Users/Jordan/Desktop/Second Year 2017-2018/Second Semester/Web Developpment/ecommerce-pattern-library/patterns/banner",
       "/Users/Jordan/Desktop/Second Year 2017-2018/Second Semester/Web Developpment/ecommerce-pattern-library/patterns/buttons",
       "/Users/Jordan/Desktop/Second Year 2017-2018/Second Semester/Web Developpment/ecommerce-pattern-library/patterns/cards",
       "/Users/Jordan/Desktop/Second Year 2017-2018/Second Semester/Web Developpment/ecommerce-pattern-library/patterns/footer",
       "/Users/Jordan/Desktop/Second Year 2017-2018/Second Semester/Web Developpment/ecommerce-pattern-library/patterns/forms",
-      "/Users/Jordan/Desktop/Second Year 2017-2018/Second Semester/Web Developpment/ecommerce-pattern-library/patterns/header"
+      "/Users/Jordan/Desktop/Second Year 2017-2018/Second Semester/Web Developpment/ecommerce-pattern-library/patterns/header",
+      "/Users/Jordan/Desktop/Second Year 2017-2018/Second Semester/Web Developpment/ecommerce-pattern-library/patterns/navigation"
     ],
     "pages": [
       {
@@ -669,6 +675,31 @@ const patternManifest_699f169e583c9d7632cac092c9a09fcfe20933ca = {
     "js": []
   },
   "userPatterns": [
+    {
+      "name": "banner",
+      "namePretty": "Banner",
+      "path": "/Users/Jordan/Desktop/Second Year 2017-2018/Second Semester/Web Developpment/ecommerce-pattern-library/patterns/banner",
+      "html": [
+        {
+          "name": "banner",
+          "namePretty": "Banner",
+          "filename": "banner",
+          "path": "/Users/Jordan/Desktop/Second Year 2017-2018/Second Semester/Web Developpment/ecommerce-pattern-library/patterns/banner/banner.html",
+          "localPath": "patterns/banner/banner.html"
+        }
+      ],
+      "md": [],
+      "css": [
+        {
+          "name": "banner",
+          "namePretty": "Banner",
+          "filename": "banner",
+          "path": "/Users/Jordan/Desktop/Second Year 2017-2018/Second Semester/Web Developpment/ecommerce-pattern-library/patterns/banner/banner.css",
+          "localPath": "patterns/banner/banner.css"
+        }
+      ],
+      "js": []
+    },
     {
       "name": "buttons",
       "namePretty": "Buttons",
@@ -861,6 +892,39 @@ const patternManifest_699f169e583c9d7632cac092c9a09fcfe20933ca = {
         }
       ],
       "js": []
+    },
+    {
+      "name": "navigation",
+      "namePretty": "Navigation",
+      "path": "/Users/Jordan/Desktop/Second Year 2017-2018/Second Semester/Web Developpment/ecommerce-pattern-library/patterns/navigation",
+      "html": [
+        {
+          "name": "navigation",
+          "namePretty": "Navigation",
+          "filename": "navigation",
+          "path": "/Users/Jordan/Desktop/Second Year 2017-2018/Second Semester/Web Developpment/ecommerce-pattern-library/patterns/navigation/navigation.html",
+          "localPath": "patterns/navigation/navigation.html"
+        }
+      ],
+      "md": [
+        {
+          "name": "readme",
+          "namePretty": "Readme",
+          "filename": "README",
+          "path": "/Users/Jordan/Desktop/Second Year 2017-2018/Second Semester/Web Developpment/ecommerce-pattern-library/patterns/navigation/README.md",
+          "localPath": "patterns/navigation/README.md"
+        }
+      ],
+      "css": [
+        {
+          "name": "navigation",
+          "namePretty": "Navigation",
+          "filename": "navigation",
+          "path": "/Users/Jordan/Desktop/Second Year 2017-2018/Second Semester/Web Developpment/ecommerce-pattern-library/patterns/navigation/navigation.css",
+          "localPath": "patterns/navigation/navigation.css"
+        }
+      ],
+      "js": []
     }
   ],
   "config": {
@@ -883,5 +947,5 @@ const patternManifest_699f169e583c9d7632cac092c9a09fcfe20933ca = {
   }
 };
 
-patternBotIncludes(patternManifest_699f169e583c9d7632cac092c9a09fcfe20933ca);
+patternBotIncludes(patternManifest_5bb702046ddc77ed27c00cee91b1539a943ada3d);
 }());

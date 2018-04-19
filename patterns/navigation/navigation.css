@@ -1,0 +1,7 @@
+nav a {
+  color: var(--color-secondary);
+}
+
+nav a:hover {
+  color: var(--color-primary);
+}

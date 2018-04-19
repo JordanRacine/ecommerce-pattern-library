@@ -1,12 +1,36 @@
-nav {
-  background-color: var(--color-primary-dark)
+.masthead {
+  border-bottom: .2em solid var(--color-primary-light);
+  border-top: .2em solid var(--color-primary-dark);
+  text-align: center;
 }
 
-a {
-  text-decoration: none;
-  transition: all .15s ease;
-  color: var(--color-primary-light);
+.logo {
+  background-image: none;
 }
 
-a:hover, a:focus {
-  text-decoration: underline;
+.nav li {
+  position: relative;
+}
+
+.nav .current::after {
+  bottom: -.5em;
+  left: 50%;
+  position: absolute;
+  width: .3em;
+  height: .3em;
+
+  background-color: var(--color-primary);
+  border-radius: 50%;
+  transform: translateX(-50%);
+
+  content: " ";
+}
+
+@media only screen and (min-width: 38em) {
+
+  .masthead {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
