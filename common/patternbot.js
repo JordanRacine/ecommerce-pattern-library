@@ -444,9 +444,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/Jordan/Desktop/Second Year 2017-2018/Second Semester/Web Developpment/ecommerce-pattern-library
- * @version 47bc0f0edc61664c40794469f38b3f5a1075a905
+ * @version d3329f62b715650e7db619ae718047f7d8f3c2ca
  */
-const patternManifest_47bc0f0edc61664c40794469f38b3f5a1075a905 = {
+const patternManifest_d3329f62b715650e7db619ae718047f7d8f3c2ca = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -726,11 +726,25 @@ const patternManifest_47bc0f0edc61664c40794469f38b3f5a1075a905 = {
       "path": "/Users/Jordan/Desktop/Second Year 2017-2018/Second Semester/Web Developpment/ecommerce-pattern-library/patterns/buttons",
       "html": [
         {
-          "name": "buttons",
-          "namePretty": "Buttons",
-          "filename": "buttons",
-          "path": "/Users/Jordan/Desktop/Second Year 2017-2018/Second Semester/Web Developpment/ecommerce-pattern-library/patterns/buttons/buttons.html",
-          "localPath": "patterns/buttons/buttons.html"
+          "name": "ghost-btn",
+          "namePretty": "Ghost btn",
+          "filename": "ghost-btn",
+          "path": "/Users/Jordan/Desktop/Second Year 2017-2018/Second Semester/Web Developpment/ecommerce-pattern-library/patterns/buttons/ghost-btn.html",
+          "localPath": "patterns/buttons/ghost-btn.html"
+        },
+        {
+          "name": "light-btn",
+          "namePretty": "Light btn",
+          "filename": "light-btn",
+          "path": "/Users/Jordan/Desktop/Second Year 2017-2018/Second Semester/Web Developpment/ecommerce-pattern-library/patterns/buttons/light-btn.html",
+          "localPath": "patterns/buttons/light-btn.html"
+        },
+        {
+          "name": "standard-btn",
+          "namePretty": "Standard btn",
+          "filename": "standard-btn",
+          "path": "/Users/Jordan/Desktop/Second Year 2017-2018/Second Semester/Web Developpment/ecommerce-pattern-library/patterns/buttons/standard-btn.html",
+          "localPath": "patterns/buttons/standard-btn.html"
         }
       ],
       "md": [
@@ -858,6 +872,13 @@ const patternManifest_47bc0f0edc61664c40794469f38b3f5a1075a905 = {
           "filename": "required",
           "path": "/Users/Jordan/Desktop/Second Year 2017-2018/Second Semester/Web Developpment/ecommerce-pattern-library/patterns/forms/required.html",
           "localPath": "patterns/forms/required.html"
+        },
+        {
+          "name": "textbox",
+          "namePretty": "Textbox",
+          "filename": "textbox",
+          "path": "/Users/Jordan/Desktop/Second Year 2017-2018/Second Semester/Web Developpment/ecommerce-pattern-library/patterns/forms/textbox.html",
+          "localPath": "patterns/forms/textbox.html"
         }
       ],
       "md": [
@@ -1009,5 +1030,5 @@ const patternManifest_47bc0f0edc61664c40794469f38b3f5a1075a905 = {
   }
 };
 
-patternBotIncludes(patternManifest_47bc0f0edc61664c40794469f38b3f5a1075a905);
+patternBotIncludes(patternManifest_d3329f62b715650e7db619ae718047f7d8f3c2ca);
 }());
